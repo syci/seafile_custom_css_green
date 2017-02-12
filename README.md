@@ -8,6 +8,6 @@ Mit Hilfe der ***custom.css*** aus diesem Repository wird die Standardfarbe **or
 
 ## Screenshots
 
-<img src="https://www.focmb.de/gogs/focmb/seafile_custom_css/raw/master/screenshot1.png" alt="Login" width="500">
+<img src="https://www.focmb.de/gogs/focmb/seafile_custom_css/raw/master/screenshot1.png" alt="Login" width="250">
 
-<img src="https://www.focmb.de/gogs/focmb/seafile_custom_css/raw/master/screenshot2.png" alt="Navbar" width="500">
+<img src="https://www.focmb.de/gogs/focmb/seafile_custom_css/raw/master/screenshot2.png" alt="Navbar" width="250">
