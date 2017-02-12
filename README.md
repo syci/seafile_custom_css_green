@@ -16,7 +16,7 @@ The Seafile server comes with a standard template that does not look bad, but do
 
 With the ***custom.css*** from this repository, the default color **orange** of the elements is changed to **green**.
 
-**NOTE:** The icons for folders are not changed and still have the color orange. I'm currently looking for a way to change the folder icon color so that the changes will be kept within a server update.
+**NOTE 1:** The icons for folders are not changed and still have the color orange. I'm currently looking for a way to change the folder icon color so that the changes will be kept within a server update.
 
 **NOTE 2:** ***custom.css*** tested with Seafile Server 6.0.7  
 
@@ -42,9 +42,9 @@ Der Seafile-Server mit mit einem Standard-Template ausgeliefert, das grundsätzl
 
 Mit Hilfe der ***custom.css*** aus diesem Repository wird die Standardfarbe **orange** der Elemente in **grün** geändert.
 
-**INFO:** Die Icons'für Ordner und ähnliches sind nich nicht geändert und haben noch die Farbe orange. Ich suche zur Zeit noch eine Möglichkeit, dass so zu ändern, dass die Änderung bei einem Server-Update erhalten bleibt.
+**INFO 1:** Die Icons'für Ordner und ähnliches sind nich nicht geändert und haben noch die Farbe orange. Ich suche zur Zeit noch eine Möglichkeit, dass so zu ändern, dass die Änderung bei einem Server-Update erhalten bleibt.
 
-**NOTE 2:** ***custom.css*** getestet mit Seafile Server 6.0.7
+**INFO 2:** ***custom.css*** getestet mit Seafile Server 6.0.7
 
 ## Installation
 
