@@ -23,4 +23,4 @@ sudo systemctl start seahub.service
 
 ## Screenshots
 
-<img src="https://www.focmb.de/gogs/focmb/seafile_custom_css/raw/master/screenshot1.png" alt="Login" width="300"> <img src="https://www.focmb.de/gogs/focmb/seafile_custom_css/raw/master/screenshot2.png" alt="Navbar" width="300">
+<img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshot1.png" alt="Login" width="300"> <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshot2.png" alt="Navbar" width="300">
