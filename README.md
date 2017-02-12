@@ -2,9 +2,15 @@
 
 Der Seafile-Server mit mit einem Standard-Template ausgeliefert, das grundsätzlich nicht schlecht aussieht, aber doch nicht jedem gefällt. Das kann man ändern, in dem man gewünschte Teile des Templates mit eigenen Werten überschreibt.
 
+Mit Hilfe der ***custom.css*** aus diesem Repository wird die Standardfarbe **orange** der Elemente in **grün** geändert.
+
+## Installation
+
 Dazu muss man sich eine Datei namens ***custom.css*** im Ordner ***seahub-data/custom*** anlegen und diese Datei mit den entsprechenden Werten befüllen.
 
-Mit Hilfe der ***custom.css*** aus diesem Repository wird die Standardfarbe **orange** der Elemente in **grün** geändert.
+Im conf-Ordner des Seafile-Servers muss die Datei seahub_settings.py angepasst werden, in dem folgender Eintrag hinzugefügt wird:
+
+    BRANDING_CSS = 'custom/custom.css'
 
 ## Screenshots
 
