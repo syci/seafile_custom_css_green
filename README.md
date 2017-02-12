@@ -6,7 +6,7 @@
    * [German README: Eigene css-Datei für den Seafile-Server](#german-readme-eigene-css-datei-für-den-seafile-server)
       * [Intro](#intro-1)
       * [Installation](#installation-1)
-      * [Screenshots](#screenshots)
+   * [Screenshots](#screenshots)
 
 # English README: Custom css file for the Seafile server
 
