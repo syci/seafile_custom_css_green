@@ -28,12 +28,12 @@ Copy the file ***custom.css*** to ***seahub-data/custom*** and add the following
 
 Finally, the Seafile server (and Seahub) must be restarted. For example in Debian Jessie this can be done with:
 
-    ```bash
-    sudo systemctl stop seahub.service
-    sudo systemctl stop seafile.service
-    sudo systemctl start seafile.service
-    sudo systemctl start seahub.service
-    ```
+```bash
+sudo systemctl stop seahub.service
+sudo systemctl stop seafile.service
+sudo systemctl start seafile.service
+sudo systemctl start seahub.service
+```
 # German README: Eigene css-Datei für den Seafile-Server
 
 ## Intro
