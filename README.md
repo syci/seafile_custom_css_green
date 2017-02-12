@@ -8,6 +8,6 @@ Mit Hilfe der ***custom.css*** aus diesem Repository wird die Standardfarbe oran
 
 ## Screenshots
 
-![Login](https://www.focmb.de/gogs/focmb/vimix-gtk-themes-green/raw/green/screenshot.png)
+![Login](https://www.focmb.de/gogs/focmb/seafile_custom_css/src/master/screenshot1.png)
 
-![Navbar](https://www.focmb.de/gogs/focmb/vimix-gtk-themes-green/raw/green/screenshot.png)
+![Navbar](https://www.focmb.de/gogs/focmb/seafile_custom_css/src/master/screenshot2.png)
