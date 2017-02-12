@@ -311,7 +311,7 @@ table img { vertical-align:middle; }
     font-size:12px;
 }
 .op { font-size:13px; padding-right:2px; }
-.op-target { color:#ee8204; word-wrap:break-word; }
+.op-target { color:#5DB71D; word-wrap:break-word; }
 .op-icon {
     font-size:20px;
     line-height:1;
@@ -322,7 +322,7 @@ table img { vertical-align:middle; }
 }
 .op-icon.sf2-x,
 .op-icon.sf2-x:hover {
-    color:#f89a68;
+    color:#5DB71D;
 }
 .op-icon.sf2-x:hover,
 .op-icon.sf2-x:focus {
