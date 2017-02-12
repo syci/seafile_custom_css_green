@@ -60,7 +60,7 @@ sudo systemctl stop seafile.service
 sudo systemctl start seafile.service
 sudo systemctl start seahub.service
 ```
-## Screenshots
+# Screenshots
 
 <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshot1.png" alt="Login" width="300"> <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshot2.png" alt="Navbar" width="300">
 <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshot3.png" alt="Main" width="600">
