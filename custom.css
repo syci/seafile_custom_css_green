@@ -3,29 +3,53 @@
 }
 
 a {
-   color: #5DB71D;
+    color:#5DB71D;
+    text-decoration:none;
+    font-weight:bold;
 }
-
+a.normal {font-weight: normal;}
 a:focus, a:hover {
-
     color: #5DB71D;
 }
-
+.tab-popup-tabs-nav .ui-state-active .a,
+.tab-popup-tabs-nav .tab .a:hover {
+    color:#5DB71D;
+    text-decoration:none;
+    border-bottom-color:#5DB71D;
+}
+.load-more-discussion {
+    color:#5DB71D;
+    margin-top:1rem;
+    cursor:pointer;
+    text-align:center;
+}
+.tabnav-tab-cur a,
+.tabnav-tab a:hover,
+.wiki-nav .cur-item .link,
+.wiki-nav .link:hover,
+#right-panel .hd .ui-state-active .a,
+#right-panel .hd .a:hover {
+    color:#5DB71D;
+    text-decoration:none;
+    border-bottom-color: #5DB71D;
+}
+#plans th {
+    color:#5DB71D;
+    font-weight:bold;
+    font-size:16px;
+}
+.repo-op .op-link:hover {
+    color:#5DB71D;
+    text-decoration:none;
+}
 .side-tabnav-tabs .tab-cur a, .side-tabnav-tabs .tab-cur a:hover {
     background-color: #5DB71D;
 }
-
 .side-tabnav h3.hd, .side-tabnav .hd h3 {
     color:  #5DB71D;
 }
 .side-tabnav-tabs .tab a:hover {
    background-color: #E3F2FF;
-}
-
-.tabnav-tab-cur a, .tabnav-tab a:hover, .wiki-nav .cur-item .link, .wiki-nav .link:hover, #right-panel .hd .ui-state-active .a, #right-panel .hd .a:hover {
-    border-bottom-color: #5DB71D;
-    color: #5DB71D;
-    text-decoration: none;
 }
 #header .nav .a:hover {
   color: #5DB71D;
