@@ -1,5 +1,9 @@
 # Custom css file for the Seafile server (Eigene css-Datei für den Seafile-Server)
 
+ * [Custom css file for the Seafile server (Eigene css-Datei für den Seafile-Server)](#custom-css-file-for-the-seafile-server-eigene-css-datei-für-den-seafile-server)
+      * [Installation](#installation)
+      * [Screenshots](#screenshots)
+
 The Seafile server comes with a standard template that does not look bad, but does not like everyone. This can be changed by overwriting desired parts of the template with own values.
 
 With the ***custom.css*** from this repository, the default color ** orange ** of the elements is changed to ** green **.
