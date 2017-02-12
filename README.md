@@ -4,10 +4,10 @@ Der Seafile-Server mit mit einem Standard-Template ausgeliefert, das grundsätzl
 
 Dazu muss man sich eine Datei namens ***custom.css*** im Ordner ***seahub-data/custom*** anlegen und diese Datei mit den entsprechenden Werten befüllen.
 
-Mit Hilfe der ***custom.css*** aus diesem Repository wird die Standardfarbe orange der Elemente in grün geändert.
+Mit Hilfe der ***custom.css*** aus diesem Repository wird die Standardfarbe **orange** der Elemente in **grün** geändert.
 
 ## Screenshots
 
-![Login](https://www.focmb.de/gogs/focmb/seafile_custom_css/raw/master/screenshot1.png)
+<img src="https://www.focmb.de/gogs/focmb/seafile_custom_css/raw/master/screenshot1.png" alt="Login" width="500">
 
-![Navbar](https://www.focmb.de/gogs/focmb/seafile_custom_css/raw/master/screenshot2.png)
+<img src="https://www.focmb.de/gogs/focmb/seafile_custom_css/raw/master/screenshot2.png" alt="Navbar" width="500">
