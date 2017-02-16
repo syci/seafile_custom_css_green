@@ -1286,7 +1286,7 @@ button.sf-dropdown-toggle:focus {
 .sf-dropdown-menu a:hover {
     background:#BEE5A2;
     text-decoration:none;
-    color:#fff;
+    color:#000;
 }
 /**** discussions/comments ****/
 .msg {
