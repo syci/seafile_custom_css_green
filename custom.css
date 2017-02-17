@@ -883,6 +883,7 @@ textarea:-moz-placeholder {/* for FF */
     border-radius:4px;
     box-shadow:0 3px 2px #f5f5f5;
     margin:5em auto;
+    background: #858585;
 }
 @media (max-width: 387px) {
     .new-narrow-panel {
