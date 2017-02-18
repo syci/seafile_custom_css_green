@@ -18,7 +18,7 @@ With the ***custom.css*** from this repository, the default color **orange** of 
 
 **NOTE 1:** The icons for folders are not changed and still have the color orange. I'm currently looking for a way to change the folder icon color so that the changes will be kept within a server update.
 
-**NOTE 2:** ***custom.css*** tested with Seafile Server 6.0.7  
+**NOTE 2:** ***custom.css*** tested with Seafile Server 6.0.7
 
 ## Installation
 
@@ -34,7 +34,9 @@ sudo systemctl stop seafile.service
 sudo systemctl start seafile.service
 sudo systemctl start seahub.service
 ```
-# German README: Eigene css-Datei für den Seafile-Server
+
+**NOTE 3:** You will find a mockup for a dark theme in the branch ***dark*** of this repo.
+# Deutsche README: Eigene css-Datei für den Seafile-Server
 
 ## Intro
 
@@ -60,6 +62,8 @@ sudo systemctl stop seafile.service
 sudo systemctl start seafile.service
 sudo systemctl start seahub.service
 ```
+**Info 3:** Erste Screenshots des dunklen Themas sind im Branch ***dark*** dieses Repos zu finden.
+
 # Screenshots
 
 <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshot1.png" alt="Login" width="300"> <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshot2.png" alt="Navbar" width="300">
