@@ -66,5 +66,5 @@ sudo systemctl start seahub.service
 
 # Screenshots
 
-<img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshot1.png" alt="Login" width="300"> <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshot2.png" alt="Navbar" width="300">
-<img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshot3.png" alt="Main" width="600">
+<img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot1.png" alt="Login" width="300"> <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot2.png" alt="Navbar" width="300">
+<img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot3.png" alt="Main" width="600">
