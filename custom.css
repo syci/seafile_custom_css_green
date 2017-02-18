@@ -623,6 +623,7 @@ textarea:-moz-placeholder {/* for FF */
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    background: #858585; /* original nicht gesetzt - Hintergrundfarbe der linken Seitenleiste */
 }
 .home-side-nav {
     padding:0;
@@ -702,7 +703,7 @@ textarea:-moz-placeholder {/* for FF */
     vertical-align:middle;
     font-size:24px;
     line-height:1;
-    color:#999;
+    color:#fff;  /* original 999 - Farbe der Symbole in der linken Seitenleiste */
 }
 .side-nav-toggle {
     background:#fff;
@@ -721,7 +722,7 @@ textarea:-moz-placeholder {/* for FF */
     color:#aaa;
 }
 #group-nav .toggle-icon {
-    color:#999;
+    color:#fff;  /* oiginal 999 - Frabe des kleinen Pfeils hinter "Meine Gruppen"*/
 }
 .side-tabnav-tabs .tab-cur a,
 .side-tabnav-tabs .tab-cur a:hover {
