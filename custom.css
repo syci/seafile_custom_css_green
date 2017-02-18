@@ -7,8 +7,9 @@ form,input,textarea,select,button,img {
 }
 body, input, textarea, button, select {
     font: 13px/1.5 Arial, Helvetica, sans-serif;
-    color: #333;
+    color: #ddd;  /* original 333 - Textfarbe und Text von EIngabefeldern */
     word-wrap:break-word;
+    background: #666666;    /* original nicht besetzt - Hintergrund der Hauptseite ohne Elemente */
 }
 input, button, select { line-height:19px;/*for ff*/ }
 h1, h2, h3, h4, h5, h6 {
@@ -16,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 { font-size:1.9em; }
 h2 { font-size:1.5em; color:#222; font-weight:bold; }
-h3 { font-size:16px; color:#322; font-weight:normal;  }
+h3 { font-size:16px; color:#322; font-weight:normal; text-decoration: underline; } /* text-decoration: underline eingefügt  */
 h4 { font-size:1.1em; color:#222; font-weight:normal; }
 h5, h6 { font-size:1em; }
 ul { list-style:none; }
@@ -73,11 +74,13 @@ input.submit,
 .fileinput-button,
 select {
     padding:5px 6px;
-    background:-webkit-linear-gradient(top, #fafafb, #eeeeee);
-    background:-moz-linear-gradient(top, #fafafb, #eeeeee);
-    background:linear-gradient(top, #fafafb, #eeeeee);
+    background: #666666; /* orignal nicht gesetzt (statt dessen die Zeilen unten) - Farbe des Anmeldebuttons */
+    /* background:-webkit-linear-gradient(top, #fafafb, #eeeeee); */
+    /* background:-moz-linear-gradient(top, #fafafb, #eeeeee); */
+    /* background:linear-gradient(top, #fafafb, #eeeeee); */
     border: 1px solid #c5c5c5;
     border-radius: 2px;
+    color : #ddd; /* orignal nicht besetzt - Schriftfarbe des Anmeldebuttons */
 }
 .sf-btn-link {
     display:inline-block;
@@ -641,11 +644,11 @@ textarea:-moz-placeholder {/* for FF */
 }
 .side-nav-footer {
     padding: 12px 20px 16px;
-    background: #f8f8f8;
+    background: #666666;
     border-top:1px solid #eee;
 }
 .side-nav-footer a {
-    color:#666;
+    color:#dddddd;
     font-weight: normal;
     margin-right:0.25rem;
 }
@@ -703,7 +706,7 @@ textarea:-moz-placeholder {/* for FF */
     vertical-align:middle;
     font-size:24px;
     line-height:1;
-    color:#fff;  /* original 999 - Farbe der Symbole in der linken Seitenleiste */
+    color:#444;  /* original 999 - Farbe der Symbole in der linken Seitenleiste */
 }
 .side-nav-toggle {
     background:#fff;
@@ -722,7 +725,7 @@ textarea:-moz-placeholder {/* for FF */
     color:#aaa;
 }
 #group-nav .toggle-icon {
-    color:#fff;  /* oiginal 999 - Frabe des kleinen Pfeils hinter "Meine Gruppen"*/
+    color:#444;  /* oiginal 999 - Frabe des kleinen Pfeils hinter "Meine Gruppen"*/
 }
 .side-tabnav-tabs .tab-cur a,
 .side-tabnav-tabs .tab-cur a:hover {
@@ -731,7 +734,7 @@ textarea:-moz-placeholder {/* for FF */
 .side-tabnav-tabs .tab-cur [class^="sf2-icon-"],
 .side-tabnav-tabs .tab-cur a,
 #group-nav .tab-cur .sharp {
-    color:#fff;
+  color:#fff; /* Farbe der Schrift des markierten Elements der linken Navbar */
 }
 .side-tabnav-tabs .tab-cur a {
     font-weight:bold;
@@ -1406,6 +1409,7 @@ button.sf-dropdown-toggle:focus {
 #main {
     min-height: 400px;
     _height: 400px;
+    background: #858585; /* original nicht gesetzt - Hintergrund des Hauptfensters (rechtes Panel)*/
 }
 #main.top-padding {
     padding-top:53px;
