@@ -1,12 +1,15 @@
 # Content/Inhalt
 
-   * [English README: Custom css file for the Seafile server](#english-readme-custom-css-file-for-the-seafile-server)
-      * [Intro](#intro)
-      * [Installation](#installation)
-   * [German README: Eigene css-Datei für den Seafile-Server](#german-readme-eigene-css-datei-für-den-seafile-server)
-      * [Intro](#intro-1)
-      * [Installation](#installation-1)
-   * [Screenshots](#screenshots)
+* [English README: Custom css file for the Seafile server](#english-readme-custom-css-file-for-the-seafile-server)
+   * [Intro](#intro)
+   * [Installation](#installation)
+   * [Notes](#notes)
+* [Deutsche README: Eigene css-Datei für den Seafile-Server](#deutsche-readme-eigene-css-datei-für-den-seafile-server)
+   * [Intro](#intro-1)
+   * [Installation](#installation-1)
+   * [Sonstiges](#sonstiges)
+* [Screenshots](#screenshots)
+
 
 # English README: Custom css file for the Seafile server
 
@@ -15,10 +18,6 @@
 The Seafile server comes with a standard template that does not look bad, but does not like everyone. This can be changed by overwriting desired parts of the template with own values.
 
 With the ***custom.css*** from this repository, the default color **orange** of the elements is changed to **green**.
-
-**NOTE 1:** The icons for folders are not changed and still have the color orange. I'm currently looking for a way to change the folder icon color so that the changes will be kept within a server update.
-
-**NOTE 2:** ***custom.css*** tested with Seafile Server 6.0.7
 
 ## Installation
 
@@ -35,7 +34,12 @@ sudo systemctl start seafile.service
 sudo systemctl start seahub.service
 ```
 
-**NOTE 3:** You will find a mockup for a dark theme in the branch ***dark*** of this repo.
+## Notes
+
+- the icons for folders are not changed and still have the color orange. I'm currently looking for a way to change the folder icon color so that the changes will be kept within a server update.
+- ***custom.css*** tested with Seafile Server 6.0.7
+-  you will find a mockup for a dark theme in the branch [***dark***](/tree/dark) of this repo.
+
 # Deutsche README: Eigene css-Datei für den Seafile-Server
 
 ## Intro
@@ -43,10 +47,6 @@ sudo systemctl start seahub.service
 Der Seafile-Server mit mit einem Standard-Template ausgeliefert, das grundsätzlich nicht schlecht aussieht, aber doch nicht jedem gefällt. Das kann man ändern, in dem man gewünschte Teile des Templates mit eigenen Werten überschreibt.
 
 Mit Hilfe der ***custom.css*** aus diesem Repository wird die Standardfarbe **orange** der Elemente in **grün** geändert.
-
-**INFO 1:** Die Icons'für Ordner und ähnliches sind nich nicht geändert und haben noch die Farbe orange. Ich suche zur Zeit noch eine Möglichkeit, dass so zu ändern, dass die Änderung bei einem Server-Update erhalten bleibt.
-
-**INFO 2:** ***custom.css*** getestet mit Seafile Server 6.0.7
 
 ## Installation
 
@@ -62,7 +62,11 @@ sudo systemctl stop seafile.service
 sudo systemctl start seafile.service
 sudo systemctl start seahub.service
 ```
-**Info 3:** Erste Screenshots des dunklen Themas sind im Branch ***dark*** dieses Repos zu finden.
+## Sonstiges
+
+- die Icons'für Ordner und ähnliches sind nich nicht geändert und haben noch die Farbe orange. Ich suche zur Zeit noch eine Möglichkeit, dass so zu ändern, dass die Änderung bei einem Server-Update erhalten bleibt.
+- ***custom.css*** getestet mit Seafile Server 6.0.7
+- erste Screenshots des dunklen Themas sind im Branch [***dark***](/tree/dark) dieses Repos zu finden.
 
 # Screenshots
 
