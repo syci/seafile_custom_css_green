@@ -1,6 +1,10 @@
 # UNDER CONSTRUCTION
 Dark background for the Seafile server webinterface
 
+## Information
+
+**IMPORTANT:** The rep is in a very early alpha state. Currently it is only a mockup. But If you want to give it a try and you are using the ***custom.css*** for the light theme, be sure you have a backup of the actual ***custom.css***.
+
 ## Mockup
 
 First screenshots with dark elements.
