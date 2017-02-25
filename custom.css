@@ -1043,7 +1043,9 @@ textarea:-moz-placeholder {/* for FF */
 }
 #simplemodal-container {
     padding: 20px;
-    background-color:#fcfcfc;
+    background-color:#333; /* original fcfcfc - Hintergrundfarbe des Modaldialogs (Popup zum Beispiel beim Teilen) */
+    color: #999; /* original nicht besetzt - Schriftfarbe im Modaldialog */
+    border:2px solid #dddddd; /* original nicht besetzt - Rahmen um Modaldialoge */
     -moz-border-radius:4px;
     border-radius:4px;
     -webkit-box-sizing:content-box;
@@ -1054,6 +1056,7 @@ textarea:-moz-placeholder {/* for FF */
 }
 #simplemodal-container table {
     margin:0;
+    color: #999; /* original nicht besetzt - Schriftfarbe für Uploadlink, Freigabe Download-Link im Modaldialog */
 }
 .modalCloseImg {
     position:absolute;
@@ -1069,6 +1072,7 @@ textarea:-moz-placeholder {/* for FF */
     font-size:1.5em;
     word-wrap:break-word;
     margin:0 0 10px;
+    color: #999; /* original nicht besetzt - Schriftfarbe für FREIGEBEN im Modaldialog */
 }
 #simplemodal-container h3,
 #simplemodal-container h4,
@@ -1273,13 +1277,13 @@ button.sf-dropdown-toggle:focus {
 }
 .sf-dropdown-menu {
     position:absolute;
-    background:#fff;
-    padding:6px 1px;
+    padding:1px 1px;
     margin:2px 0 0;
     border:1px solid rgba(34,36,38,.15);
     border-radius:3px;
     box-shadow:0 2px 3px 0 rgba(34,36,38,.15);
     z-index:10;
+    background: #ddd; /* original nicht besetzt - Rahmenfarbe des Dropdownmenüs bei Bibliothekenaktionen */
 }
 .sf-dropdown-menu li a,
 .sf-dropdown-menu a {
@@ -1287,8 +1291,9 @@ button.sf-dropdown-toggle:focus {
     padding:4px 12px;
     min-width:110px;
     white-space:nowrap;
-    color:#444;
+    color:#ddd; /* Schriftfarbe im Dropdownmenü bei Bibliothekennamen */
     font-weight:normal;
+    background: #333; /* original nicht besetzt - Hintergrundfarbe für das Dropdownmenü bei Bibliothekenaktionen */
 }
 .sf-dropdown-menu a:hover {
     background:#BEE5A2;
@@ -1719,8 +1724,12 @@ button.sf-dropdown-toggle:focus {
     font-size:13px;
     margin-top:12px;
 }
+#lang-context{
+    color:#ddd; /* ganzen block gibts im Original nicht - Schriftfarbe für Sprachauswahl auf Anmeldeseite ohne Hover */
+}
 #lang-context:hover {
     text-decoration:none;
+    color: #5DB71D; /* original nicht besetzt - Schrifthintergrund für Sprachauswahl im Anmeldebildscharm bei Hover */
 }
 .captcha {
     float:right;

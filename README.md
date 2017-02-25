@@ -9,7 +9,7 @@ Tested with Seafile Server 6.0.7.
 
 ## Installation
 
-Copy the file ***custom.css*** to seahubdata/custom and add the following line to ***conf/seahub_settings.py***:
+Copy the file ***custom.css*** to ***seahubdata/custom*** and add the following line to ***conf/seahub_settings.py***:
 
 ```bash
 BRANDING_CSS = 'custom/custom.css'
