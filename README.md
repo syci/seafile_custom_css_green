@@ -1,9 +1,11 @@
-# UNDER CONSTRUCTION
-Dark background for the Seafile server webinterface
+# Dark theme for the Seafile Server webinterface
+Dark theme (grey / green) for the Seafile server webinterface
+
+Tested with Seafile Server 6.0.7.
 
 ## Information
 
-**IMPORTANT:** The rep is in a very early alpha state. But If you want to give it a try and you are using the ***custom.css*** for the light theme, be sure you have a backup of the actual ***custom.css***.
+**IMPORTANT:** The theme is in a very early alpha state. But If you want to give it a try and you are using the ***custom.css*** for the light theme, be sure you have a backup of the actual ***custom.css***.
 
 ## Screenshots
 
