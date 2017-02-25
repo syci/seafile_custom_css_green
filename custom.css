@@ -1044,7 +1044,7 @@ textarea:-moz-placeholder {/* for FF */
 #simplemodal-container {
     padding: 20px;
     background-color:#333; /* original fcfcfc - Hintergrundfarbe des Modaldialogs (Popup zum Beispiel beim Teilen) */
-    color: #999; /* original nicht besetzt - Schriftfarbe im Modaldialog */
+    color: #ddd; /* original nicht besetzt - Schriftfarbe im Modaldialog */
     border:2px solid #dddddd; /* original nicht besetzt - Rahmen um Modaldialoge */
     -moz-border-radius:4px;
     border-radius:4px;
@@ -1056,7 +1056,7 @@ textarea:-moz-placeholder {/* for FF */
 }
 #simplemodal-container table {
     margin:0;
-    color: #999; /* original nicht besetzt - Schriftfarbe für Uploadlink, Freigabe Download-Link im Modaldialog */
+    color: #ddd; /* original nicht besetzt - Schriftfarbe für Uploadlink, Freigabe Download-Link im Modaldialog */
 }
 .modalCloseImg {
     position:absolute;
@@ -1072,7 +1072,7 @@ textarea:-moz-placeholder {/* for FF */
     font-size:1.5em;
     word-wrap:break-word;
     margin:0 0 10px;
-    color: #999; /* original nicht besetzt - Schriftfarbe für FREIGEBEN im Modaldialog */
+    color: #ddd; /* original nicht besetzt - Schriftfarbe für FREIGEBEN im Modaldialog */
 }
 #simplemodal-container h3,
 #simplemodal-container h4,
