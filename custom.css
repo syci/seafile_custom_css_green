@@ -31,7 +31,7 @@ a {
 }
 a.normal {font-weight: normal;}
 a:focus, a:hover {
-    color: #5DB71D;
+    color: #666666; /* Schriftfarbe des Bibliothekennamens bei Hover */
 }
 a.black {
     color:#322;
@@ -168,7 +168,7 @@ caption {
 th {
     text-align:left;
     font-weight:normal;
-    color:#9c9c9c;
+    color:#dddddd; /* original 9c9c9c - Schriftfarbe der Spaltenbeschriftung Größe */
 }
 th, td {
     padding:5px 3px;
@@ -211,7 +211,7 @@ table img { vertical-align:middle; }
     display: block;
 }
 /********** common class ***********/
-.hl { background-color: #f8f8f8; }/*highlight*/
+.hl { background-color: #BEE5A2; }/* original #F8F8F8 - highlight* für die Bibliothekenzeile/
 .fleft { float:left }
 .fright { float:right }
 .clear { clear:both; }
