@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 { font-size:1.9em; }
 h2 { font-size:1.5em; color:#222; font-weight:bold; }
-h3 { font-size:16px; color:#322; font-weight:normal; text-decoration: underline; } /* text-decoration: underline eingefügt  */
+h3 { font-size:16px; color:#ddd; font-weight:normal; text-decoration: underline; } /* text-decoration: underline eingefügt, color von 322 auf ddd geändert (z. B. Schriftzzug Meine Bibliotheken)  */
 h4 { font-size:1.1em; color:#222; font-weight:normal; }
 h5, h6 { font-size:1em; }
 ul { list-style:none; }
@@ -25,7 +25,7 @@ dl { margin:1.5em 0; }
 dt { color:#666; margin:24px 0 2px; font-weight:normal; }
 dd { margin-bottom:.8em; color:#222; }
 a {
-    color:#5DB71D;
+    color:#444; /* Hintergrundfarbe der Schrift für Bibliotheksnamen */
     text-decoration:none;
     font-weight:bold;
 }
@@ -40,6 +40,7 @@ a.table-sort-op {
     color:inherit;
     font-weight:normal;
     display:block;
+    color: #ddd; /* original nicht besetzt - Schriftfarbe der Spaltennamen Name und Letzte Änderung */
 }
 a.table-sort-op:hover,
 a.table-sort-op:focus {
@@ -127,6 +128,7 @@ input[type=submit],
 input.submit,
 button.submit {
     margin-top:8px;
+    background: #666666; /* original nicht besetzt - Hintergrundfarbe Button */
 }
 input[type=submit]:hover,
 input[type=reset]:hover,
@@ -135,7 +137,7 @@ button:hover,
 .sf-btn-link:hover,
 .fileinput-button:hover {
     cursor:pointer;
-    background:#fff;
+    background:#5DB71D; /* original 666 - Hintergundfarbe Button bei Maus Hover */
 }
 input[type="file"] {
     border:none;
@@ -1436,7 +1438,7 @@ button.sf-dropdown-toggle:focus {
 #dir-view .repo-op,
 .wiki-top {
     padding:9px 10px;
-    background:#f2f2f2;
+    background:#666666; /* original f2f2f2 - Hintergrund der Box Meine Bibliotheken
     margin-bottom:.5em;
     border-radius:2px;
 }
@@ -1502,7 +1504,8 @@ button.sf-dropdown-toggle:focus {
 .tabnav button,
 .repo-file-list-topbar .op-btn {
     height:29px;
-    background:#fff;
+    background:#ddd; /* original fff - Hintergrund des Buttons Neue Bibliothek */
+    color: #666; /* original nicht besetzt - Schriftfarbe des Buttons Neue Bibliothek */
     line-height:17px;
 }
 /* info-bar */
