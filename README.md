@@ -39,7 +39,7 @@ sudo systemctl start seahub.service
 ## Notes
 
 - the icons for folders are not changed and still have the color orange. I'm currently looking for a way to change the folder icon color so that the changes will be kept within a server update.
-- ***custom.css*** tested with Seafile Server 6.0.7
+- ***custom.css*** tested with Seafile Server 6.0.7 and 6.0.8
 
 ## Dark theme
 
@@ -70,7 +70,7 @@ sudo systemctl start seahub.service
 ## Sonstiges
 
 - die Icons'für Ordner und ähnliches sind nich nicht geändert und haben noch die Farbe orange. Ich suche zur Zeit noch eine Möglichkeit, dass so zu ändern, dass die Änderung bei einem Server-Update erhalten bleibt.
-- ***custom.css*** getestet mit Seafile Server 6.0.7
+- ***custom.css*** getestet mit Seafile Server 6.0.7 und 6.0.8
 
 ## Dunkles Thema
 
