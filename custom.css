@@ -742,7 +742,7 @@ textarea:-moz-placeholder {/* for FF */
     vertical-align:middle;
     font-size:24px;
     line-height:1;
-    color:#999;
+    color:#008a3b; /*#999 color of the icons in the left pane, e.g. devices or favorites */
 }
 .side-nav-toggle {
     background:#fff;
