@@ -1,4 +1,7 @@
-/* Hauptgrün verdunkelt: #5DB71D gegen #008a3b getauscht
+:root {
+    --darkGreen: #008a3b;
+    --lightGreen: #e2f1e7;
+}
 
 body,
 ul,ol,li,dl,dt,dd,
@@ -26,13 +29,13 @@ dl { margin:1.5em 0; }
 dt { color:#666; margin:24px 0 2px; font-weight:normal; }
 dd { margin-bottom:.8em; color:#222; }
 a {
-    color:#008a3b;
+    color:var(--darkGreen);
     text-decoration:none;
     font-weight:bold;
 }
 a.normal {font-weight: normal;}
 a:focus, a:hover {
-    color: #008a3b;
+    color: var(--darkGreen);
 }
 a.black {
     color:#322;
@@ -344,7 +347,7 @@ table img { vertical-align:middle; }
     font-size:12px;
 }
 .op { font-size:13px; padding-right:2px; }
-.op-target { color:#008a3b; word-wrap:break-word; }
+.op-target { color:var(--darkGreen); word-wrap:break-word; }
 .op-icon {
     font-size:20px;
     line-height:1;
@@ -355,7 +358,7 @@ table img { vertical-align:middle; }
 }
 .op-icon.sf2-x,
 .op-icon.sf2-x:hover {
-    color:#008a3b;
+    color:var(--darkGreen);
 }
 .op-icon.sf2-x:hover,
 .op-icon.sf2-x:focus {
@@ -605,11 +608,11 @@ textarea:-moz-placeholder {/* for FF */
 }
 .left-right-tabs-nav a:hover {
     text-decoration:none;
-    background:#e2f1e7;
+    background:var(--lightGreen);
 }
 .left-right-tabs-nav .ui-state-active a,
 .left-right-tabs-nav .ui-state-active a:hover {
-    background:#008a3b;
+    background:var(--darkGreen);
     color:#fff;
 }
 .left-right-tabs-content {
@@ -693,7 +696,7 @@ textarea:-moz-placeholder {/* for FF */
 }
 .side-tabnav h3.hd,
 .side-tabnav .hd h3 {
-    color:#008a3b;
+    color:var(--darkGreen);
 }
 .side-tabnav .hd h3 {
     margin-bottom:0;
@@ -731,7 +734,7 @@ textarea:-moz-placeholder {/* for FF */
     padding:0;
 }
 .side-tabnav-tabs .tab a:hover {
-    background-color:#e2f1e7;
+    background-color:var(--lightGreen);
     text-decoration:none;
 }
 .side-tabnav-tabs .tab [class^="sf2-icon-"] {
@@ -742,7 +745,7 @@ textarea:-moz-placeholder {/* for FF */
     vertical-align:middle;
     font-size:24px;
     line-height:1;
-    color:#008a3b; /*#999 color of the icons in the left pane, e.g. devices or favorites */
+    color:var(--darkGreen); /*#999 color of the icons in the left pane, e.g. devices or favorites */
 }
 .side-nav-toggle {
     background:#fff;
@@ -765,7 +768,7 @@ textarea:-moz-placeholder {/* for FF */
 }
 .side-tabnav-tabs .tab-cur a,
 .side-tabnav-tabs .tab-cur a:hover {
-    background-color:#008a3b;
+    background-color:var(--darkGreen);
 }
 .side-tabnav-tabs .tab-cur [class^="sf2-icon-"],
 .side-tabnav-tabs .tab-cur a,
@@ -788,7 +791,7 @@ textarea:-moz-placeholder {/* for FF */
 }
 .side-textnav-tabs .tab-cur a,
 .side-textnav-tabs .tab a:hover {
-    color:#008a3b; /*Link color for the left pane in user settings*/
+    color:var(--darkGreen); /*Link color for the left pane in user settings*/
     text-decoration:none;
 }
 .side-info dt {
@@ -939,7 +942,7 @@ textarea:-moz-placeholder {/* for FF */
     color:#fff;
     font-size:16px;
     padding:5px 20px;
-    background:#008a3b;
+    background:var(--darkGreen);
     border-bottom:1px solid #d5d5d5;
 }
 .new-narrow-panel .con {
@@ -1039,9 +1042,9 @@ textarea:-moz-placeholder {/* for FF */
 }
 .tab-popup-tabs-nav .ui-state-active .a,
 .tab-popup-tabs-nav .tab .a:hover {
-    color:#008a3b;
+    color:var(--darkGreen);
     text-decoration:none;
-    border-bottom-color:#008a3b;
+    border-bottom-color:var(--darkGreen);
 }
 .tab-popup-tabs .ui-tabs-panel .option-list {
     max-height:200px;
@@ -1330,7 +1333,7 @@ button.sf-dropdown-toggle:focus {
     font-weight:normal;
 }
 .sf-dropdown-menu a:hover {
-    background:#e2f1e7;
+    background:var(--lightGreen);
     text-decoration:none;
     color:#000;
 }
@@ -1378,7 +1381,7 @@ button.sf-dropdown-toggle:focus {
     margin:10px 0;
 }
 .load-more-discussion {
-    color:#008a3b;
+    color:var(--darkGreen);
     margin-top:1rem;
     cursor:pointer;
     text-align:center;
@@ -1531,9 +1534,9 @@ button.sf-dropdown-toggle:focus {
 .wiki-nav .link:hover,
 #right-panel .hd .ui-state-active .a,
 #right-panel .hd .a:hover {
-    color:#008a3b;
+    color:var(--darkGreen);
     text-decoration:none;
-    border-bottom-color: #008a3b;
+    border-bottom-color: var(--darkGreen);
 }
 .btn-white,
 .tabnav button,
@@ -1588,7 +1591,7 @@ button.sf-dropdown-toggle:focus {
     font-size:12px;
     line-height:1;
     padding:1px 2px;
-    background:#008a3b;
+    background:var(--darkGreen);
     border:1px solid #cb8a5d;
     top:0;
     left:15px;
@@ -1611,7 +1614,7 @@ button.sf-dropdown-toggle:focus {
     background:#f5f5f7;
     padding-right:10px;
     padding-left:8px;
-    border-left:2px solid #008a3b;
+    border-left:2px solid var(--darkGreen);
     margin:0 -10px;
 }
 #notice-popover .avatar {
@@ -2134,7 +2137,7 @@ button.sf-dropdown-toggle:focus {
     padding:0 0 6px 0;
 }
 #ls-ch a {
-    color:#008a3b;
+    color:var(--darkGreen);
     font-weight:normal;
 }
 #dirs { /* file mv */
@@ -2210,7 +2213,7 @@ button.sf-dropdown-toggle:focus {
 .template-upload .btn {
     background: transparent;
     border: none;
-    color: #008a3b;
+    color: var(--darkGreen);
 }
 .fixed-upload-file-dialog .fileupload-buttonbar .cancel {
     color:#909090;
@@ -2237,7 +2240,7 @@ button.sf-dropdown-toggle:focus {
 }
 .ui-progressbar-value,
 .progress .bar {
-    background:#008a3b;
+    background:var(--darkGreen);
     height:100%;
 }
 .fade {
@@ -2409,7 +2412,7 @@ button.sf-dropdown-toggle:focus {
     margin-top:-3px;
 }
 .upload-progress-bar .ui-progressbar-value {/*for progress*/
-    background:#008a3b;
+    background:var(--darkGreen);
     margin:0;
 }
 
@@ -2882,7 +2885,7 @@ button.sf-dropdown-toggle:focus {
     border:1px solid #ede;
 }
 #plans th {
-    color:#008a3b;
+    color:var(--darkGreen);
     font-weight:bold;
     font-size:16px;
 }
@@ -3101,7 +3104,7 @@ button.sf-dropdown-toggle:focus {
     font-size:22px;
 }
 .repo-op .op-link:hover {
-    color:#008a3b;
+    color:var(--darkGreen);
     text-decoration:none;
 }
 /* multi dirents operation */
@@ -3226,7 +3229,7 @@ button.sf-dropdown-toggle:focus {
 }
 #guide-for-new .icon-lightbulb {
     font-size:6em;
-    color:#008a3b;
+    color:var(--darkGreen);
 }
 #guide-for-new .txt {
     margin-left:6.4em;
