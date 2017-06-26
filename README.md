@@ -27,7 +27,7 @@ Copy the file ***custom.css*** to ***seahub-data/custom*** and add the following
 
     BRANDING_CSS = 'custom/custom.css'
     
-To change the icon color for folder icons you have to copy the file folder-192.png from the img folder of this repo into the seahub folder (***seafile-server-latest/seahub/media/img/***) on your server and rename it to folder-24.png. But before please create a backup of your origina file. After an update of the Seafile server this change will be reverted and you have to copy it again.
+To change the icon color for folder icons you have to copy the file folder-192.png from the img folder of this repo into the seahub folder (***seafile-server-latest/seahub/media/img***) on your server and rename it to folder-24.png. But before please create a backup of your origina file. After an update of the Seafile server this change will be reverted and you have to copy it again.
 
 Finally, the Seafile server (and Seahub) must be restarted. For example in Debian Jessie this can be done with:
 
@@ -69,7 +69,7 @@ Dazu muss man die Datei namens ***custom.css*** in den Ordner ***seahub-data/cus
 
     BRANDING_CSS = 'custom/custom.css'
     
-Zum Ändern der Farbe des Icons für Ordner (original orange) muss die Datei folder-192.png aus dem img-Ordner des Repos in den Seahub-Ordner ((***seafile-server-latest/seahub/media/img/***)) auf dem Server kopiert und in folder-24.png umbenannt werden. Aber bitte vorher ein Backup der Originaldatei anlegen. Diese Änderung ist nicht persistent und ist nach einem Seafile Server Update verscheunden und muss dann neu durchgeführt werden.
+Zum Ändern der Farbe des Icons für Ordner (original orange) muss die Datei folder-192.png aus dem img-Ordner des Repos in den Seahub-Ordner ((***seafile-server-latest/seahub/media/img***)) auf dem Server kopiert und in folder-24.png umbenannt werden. Aber bitte vorher ein Backup der Originaldatei anlegen. Diese Änderung ist nicht persistent und ist nach einem Seafile Server Update verscheunden und muss dann neu durchgeführt werden.
 
 Zuletzt muss noch der Seafile-Server (und Seahub) neugestartet werden. Das erfolgt zum Beispiel bei Debian Jessie mit:
 
