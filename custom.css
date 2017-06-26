@@ -3619,3 +3619,17 @@ img.thumbnail {
     width:800px;
     overflow:auto;
 }
+/*Popup for sharing - left pane with download link*/
+@media (min-width: 768px){
+.nav-con-tabs-nav .ui-state-active a, .nav-con-tabs-nav .ui-state-active a:hover {
+    background:var(--darkMain);
+    color: #fff;
+    }
+}
+@media (min-width: 768px){
+    .nav-con-tabs-nav a:hover{
+        text-decoration: none;
+        background: var(--lightMain);
+        color: #000000;
+    }
+}
