@@ -27,9 +27,7 @@ Copy the file ***custom.css*** to ***seahub-data/custom*** and add the following
 
     BRANDING_CSS = 'custom/custom.css'
     
-To change the icon color for folder icons you have to copy the file folder-192.png from the img folder into the seahub folder (***~/seafile-server-latest/seahub/media/img/folder-24.png***) on your server and rename it to folder-24.png. After an update of the Seafile server this change will be reverted and you have to copy it again.
-
-
+To change the icon color for folder icons you have to copy the file folder-192.png from the img folder of this repo into the seahub folder (***seafile-server-latest/seahub/media/img/***) on your server and rename it to folder-24.png. But before please create a backup of your origina file. After an update of the Seafile server this change will be reverted and you have to copy it again.
 
 Finally, the Seafile server (and Seahub) must be restarted. For example in Debian Jessie this can be done with:
 
@@ -70,6 +68,8 @@ Mit Hilfe der ***custom.css*** aus diesem Repository wird die Standardfarbe **or
 Dazu muss man die Datei namens ***custom.css*** in den Ordner ***seahub-data/custom*** kopieren und im conf-Ordner des Seafile-Servers die Datei seahub_settings.py angepassen, in dem folgender Eintrag hinzugefügt wird:
 
     BRANDING_CSS = 'custom/custom.css'
+    
+Zum Ändern der Farbe des Icons für Ordner (original orange) muss die Datei folder-192.png aus dem img-Ordner des Repos in den Seahub-Ordner ((***seafile-server-latest/seahub/media/img/***)) auf dem Server kopiert und in folder-24.png umbenannt werden. Aber bitte vorher ein Backup der Originaldatei anlegen. Diese Änderung ist nicht persistent und ist nach einem Seafile Server Update verscheunden und muss dann neu durchgeführt werden.
 
 Zuletzt muss noch der Seafile-Server (und Seahub) neugestartet werden. Das erfolgt zum Beispiel bei Debian Jessie mit:
 
