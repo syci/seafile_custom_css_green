@@ -26,8 +26,12 @@ With the ***custom.css*** from this repository, the default color **orange** of 
 Copy the file ***custom.css*** to ***seahub-data/custom*** and add the following line to ***conf/seahub-settings.py***:
 
     BRANDING_CSS = 'custom/custom.css'
-    
+
 To change the icon color for folder icons you have to copy the file folder-192.png from the img folder of this repo into the seahub folder (***seafile-server-latest/seahub/media/img***) on your server and rename it to folder-24.png. But before please create a backup of your original file. After an update of the Seafile server this change will be reverted and you have to copy it again.
+
+If you want to use the green Favicon copy the ***favicon.png*** to ***seahub-data/custom*** and add the following line to your ***conf/seahub-settings.py***:
+    
+    FAVICON_PATH = 'custom/favicon.png'
 
 Finally, the Seafile server (and Seahub) must be restarted. For example in Debian Jessie this can be done with:
 
@@ -70,6 +74,10 @@ Dazu muss man die Datei namens ***custom.css*** in den Ordner ***seahub-data/cus
     BRANDING_CSS = 'custom/custom.css'
     
 Zum Ändern der Farbe des Icons für Ordner (original orange) muss die Datei folder-192.png aus dem img-Ordner des Repos in den Seahub-Ordner ((***seafile-server-latest/seahub/media/img***)) auf dem Server kopiert und in folder-24.png umbenannt werden. Aber bitte vorher ein Backup der Originaldatei anlegen. Diese Änderung ist nicht persistent und ist nach einem Seafile Server Update verscheunden und muss dann neu durchgeführt werden.
+
+Wenn man das Favicon auch im passenden grün haben möchte, dann muss die Datei  ***favicon.png*** nach ***seahub-data/custom*** kopiert und die folgende Zeile zur ***conf/seahub-settings.py*** hinzugefügt werden:
+    
+    FAVICON_PATH = 'custom/favicon.png'
 
 Zuletzt muss noch der Seafile-Server (und Seahub) neugestartet werden. Das erfolgt zum Beispiel bei Debian Jessie mit:
 
