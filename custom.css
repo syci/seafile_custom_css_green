@@ -816,7 +816,7 @@ textarea:-moz-placeholder {/* for FF */
 /**** right side panel ****/
 .right-side-panel {
     background: #fff;
-    width:400px;
+    width:320px;
     position:fixed;
     right:-400px;
     top:0;
