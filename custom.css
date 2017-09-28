@@ -1792,7 +1792,7 @@ button.sf-dropdown-toggle:focus {
 }
 #my-usage,
 #quota-usage {
-    background:#ddd;
+    background:var(--darkMain);
 }
 #share-usage {
     background:#eee;
