@@ -6,13 +6,7 @@
       * [Installation](#installation)
       * [Notes](#notes)
       * [Dark theme](#dark-theme)
-   * [Deutsche README: Eigene css-Datei für den Seafile-Server](#deutsche-readme-eigene-css-datei-für-den-seafile-server)
-      * [Intro](#intro-1)
-      * [Installation](#installation-1)
-      * [Sonstiges](#sonstiges)
-      * [Dunkles Thema](#dunkles-thema)
-   * [Screenshots](#screenshots)
-
+ 
 # English README: Custom css file for the Seafile server
 
 ## Intro
