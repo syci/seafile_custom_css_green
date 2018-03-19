@@ -1,6 +1,6 @@
-# Content/Inhalt
+# Content
 
-* [Content/Inhalt](#contentinhalt)
+* [Content](#contentinhalt)
    * [English README: Custom css file for the Seafile server](#english-readme-custom-css-file-for-the-seafile-server)
       * [Intro](#intro)
       * [Installation](#installation)
